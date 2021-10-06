@@ -42,7 +42,8 @@
                                       {{-- icons --}}
                   <div class="row">
                     <div class="col-md-3">
-                      <a  href="http://localhost:8080/twiter/public/edittimeline/{{$tweet->id}}"> <i class="far fa-edit"></i>
+                      {{-- <a  href="http://localhost:8080/twiter/public/edittimeline/{{$tweet->id}}">  --}}
+                        <i class="far fa-edit"></i>
                     </div>
                     <div class="col-md-3">
                       <a  href="http://localhost:8080/twiter/public/email"><i class="far fa-envelope"></a></i>

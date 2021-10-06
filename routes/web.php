@@ -35,8 +35,9 @@ Route::get('/creattimeline/{id}', function ($id) {
     $tweets->delete();
     return redirect("http://localhost:8080/twiter/public/timeline");
 });
-Route::get('/edittimeline/{$id}','TweetsController@EditTweet');
-Route::post('/edittimeline/{$id}','TweetsController@eEditTweet');
+//edit
+// Route::get('/edittimeline','TweetsController@EditTweet');
+// Route::post('/edittimeline/{$id}','TweetsController@eEditTweet');
 
 //SendEmail
 Route::get('/email', 'EmailController@create');
